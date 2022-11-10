@@ -4,7 +4,7 @@
 */
 
 header {
-    height: 40px;
+    height: 56px;
     background-color: #cfcfdb;
 }
 body{
@@ -57,7 +57,7 @@ ul{
     display: flex;
     margin-top: 10px;
     margin-bottom: 10px;
-    height: calc(100vh - 56px - 56px - 50vh - 30px);
+    height: calc(100vh - 112px - 50vh - 20px);
     box-sizing: border-box;
     font-size: 20px;
     gap: 20px;
@@ -98,7 +98,8 @@ ul{
 }
 
 button{
-    height: 30px;
+    height: 80px;
+    width: 80px;
 
 }
 button:hover{
@@ -115,7 +116,7 @@ button:hover{
 
 footer{
     text-align: right;
-    height: 40px;
+    height: 56px;
     background-color: #cfcfdb;
 }
 
