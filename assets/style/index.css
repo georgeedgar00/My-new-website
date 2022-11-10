@@ -18,12 +18,12 @@ body{
     HERO BANNER 
 */
 
-.hero-image{
+.hero-banner{
     height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #f3f3f5 url(../img/herobanner.jpg) center center / cover no-repeat;
+    background: #f3f3f5 url(../img/hero-banner.jpg) center center / cover no-repeat;
 }
 
 .overlay {
