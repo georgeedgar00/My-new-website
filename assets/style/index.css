@@ -8,6 +8,12 @@ header {
     background-color: #141414;
     color: #FDFDFD;
 }
+nav{
+    text-align: right;
+}
+li + li{
+    margin-right: 20px;
+}
 body{
     margin: 0;
     padding: 0;
@@ -16,12 +22,7 @@ body{
     background-color: #282828;
     color: #FDFDFD;
 }
-ul{
-    text-align: center;
-}
-li + li{
-    display: inline;
-}
+
 
 /* 
     HERO BANNER 
@@ -99,15 +100,15 @@ li + li{
     box-shadow: 0 0 40px -10px rgba(0 0 0 / 0.25);
 }
 
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 576px) {
     .box-1, .box-2{
-        width: 100%;
+        width: 50%;
     }
  }
 
- @media screen and (min-width: 600px) {
+ @media screen and (min-width: 576px) {
     .box-1, .box-2{
-        width: 100%;
+        width: 50%;
     }
  }
  
